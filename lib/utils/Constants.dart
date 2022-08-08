@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_monkey/models/Category.dart';
+import 'package:food_monkey/models/Product.dart';
 import 'package:food_monkey/models/Tag.dart';
 // import 'package:flutter_svg/flutter_svg.dart';
 // import 'package:commerce/models/User.dart';
@@ -29,6 +30,14 @@ class Constants{
 
   // static User? user;
 
+
+  static String sarTar = """
+  Finally, we have PageTransformer like android, just set a transformer to Swiper, it returns a widget that has been transformed. For now, only support for layout DEFAULT. Thanks to @FlutterRocks ,you've done great job""";
+
+
+}
+
+
   List<Category> cats = [
     Category(name: "Burger", image: "Category_Burger.png"),
     Category(name: "Chicken Fried", image: "Category_Chicken_Fried.png"),
@@ -46,8 +55,15 @@ class Constants{
     Tag(name: "Food", image: "Food.png"),
   ];
 
-  static String sarTar = """
-  Finally, we have PageTransformer like android, just set a transformer to Swiper, it returns a widget that has been transformed. For now, only support for layout DEFAULT. Thanks to @FlutterRocks ,you've done great job""";
-
-
-}
+  List<Product> products = [
+    Product(id: "1", name: "Burger", image: "1.png"),
+    Product(id: "2", name: "Hot Dog", image: "2.png"),
+    Product(id: "3", name: "Burger", image: "3.png"),
+    Product(id: "4", name: "Chicken", image: "4.png"),
+    Product(id: "5", name: "Pork", image: "5.png"),
+    Product(id: "6", name: "Stick", image: "6.png"),
+    Product(id: "7", name: "Big Bg", image: "7.png"),
+    Product(id: "8", name: "Spicy", image: "8.png"),
+    Product(id: "9", name: "Malar", image: "9.png"),
+    Product(id: "10", name: "Noodle", image: "10.png"),
+  ];
